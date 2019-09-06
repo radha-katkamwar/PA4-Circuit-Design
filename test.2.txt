@@ -1,0 +1,8 @@
+INPUT 3 A B C
+OUTPUT 1 Z
+NAND A C : S1
+NAND B B : temp1
+NAND C C : temp2
+NAND temp1 temp 2 : var2
+NAND S1 S2 : Z
+

@@ -1,0 +1,7 @@
+INPUT 3 A B C
+OUTPUT 1 2
+NOT B : S1
+NOT C : S2
+AND  S1 S2 : temp1
+AND A C : temp2
+OR temp1 temp 2: 2
